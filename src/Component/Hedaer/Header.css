@@ -1,0 +1,22 @@
+.head {
+    background: #ffa640;
+    height: 50px;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding-top: 10px;
+}
+.main-nav a {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.main-nav a:hover {
+    color: wheat;
+    transition: all 150ms;
+}

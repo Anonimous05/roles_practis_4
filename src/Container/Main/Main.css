@@ -1,0 +1,91 @@
+.posts {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.postBlock {
+    width: 300px;
+    border-top: 4px solid #ffa53e;
+    height: 220px;
+    margin-left: 100px;
+}
+.postBlock img {
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.postBlock p {
+    font-family: 'sans-serif',FreeMono;
+    margin-left: 20px;
+    font-size: 20px;
+    float: left;
+    line-height: 10px;
+}
+.edit {
+    width: 100px;
+    margin-left: 60px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 20px;
+    background: mediumseagreen;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family:'sans-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+    border-bottom:3px solid #238b5f;
+}
+.edit2 {
+    width: 200px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 20px;
+    background: mediumseagreen;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family:'sans-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+    border-bottom:3px solid #238b5f;
+}
+.delete {
+    width: 100px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 20px;
+    background: #ff4040;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family:'sans-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+    border-bottom:3px solid #ff2010;
+    margin-left: 25em;
+}
+.edit:hover,.check:hover , .edit2:hover{
+    border-bottom: mediumseagreen;
+    transition: all 10s;
+}
+.edit:focus,.edit2:focus,.check:focus {
+    outline: none;
+}
+.img {
+    height: 170px;
+}
+.check {
+    width: 200px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 20px;
+    background: mediumseagreen;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-family:'sans-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+    border-bottom:3px solid #238b5f;
+}
